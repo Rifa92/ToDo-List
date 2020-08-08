@@ -1,0 +1,21 @@
+package NotePad;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        JFrame fram = new Grid();
+        fram.setTitle("Notepad");
+        fram.setVisible(true);
+        fram.setSize(1280,720);
+        fram.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        fram.setResizable(true);
+        fram.setLocationRelativeTo(null);
+
+
+
+    }
+}
